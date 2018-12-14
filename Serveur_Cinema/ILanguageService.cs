@@ -12,7 +12,6 @@ namespace Serveur_Cinema
     [ServiceContract]
     public interface ILanguageService
     {
-        [OperationContract]
-        Language Add(Language Langue);
+        
     }
 }

@@ -12,6 +12,20 @@ namespace Serveur_Cinema
     [ServiceContract]
     public interface ILanguageService
     {
+<<<<<<< HEAD
         
+=======
+        [OperationContract]
+        Language Addlangage(Language Langue);
+        [OperationContract]
+        Actor Addactor(Actor Act);
+        [OperationContract]
+        Store Addstore(Store str);
+        [OperationContract]
+        Address Addadresse(Address ad);
+        [OperationContract]
+        List<Store> Listestore();
+
+>>>>>>> a267ae8d5df0abe28946137f73c3a901f3a43310
     }
 }

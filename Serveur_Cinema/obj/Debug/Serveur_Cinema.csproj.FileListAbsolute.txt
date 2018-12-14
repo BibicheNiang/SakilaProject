@@ -22,3 +22,15 @@ C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Serveur_Cinema\o
 C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Serveur_Cinema\obj\Debug\Serveur_Cinema.csproj.CopyComplete
 C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Serveur_Cinema\obj\Debug\Serveur_Cinema.dll
 C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Serveur_Cinema\obj\Debug\Serveur_Cinema.pdb
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Serveur_Cinema\bin\Debug\Serveur_Cinema.dll.config
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Serveur_Cinema\bin\Debug\Serveur_Cinema.dll
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Serveur_Cinema\bin\Debug\Serveur_Cinema.pdb
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Serveur_Cinema\bin\Debug\EntityFramework.dll
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Serveur_Cinema\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Serveur_Cinema\bin\Debug\EntityFramework.xml
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Serveur_Cinema\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Serveur_Cinema\obj\Debug\Serveur_Cinema.csprojAssemblyReference.cache
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Serveur_Cinema\obj\Debug\Serveur_Cinema.csproj.CoreCompileInputs.cache
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Serveur_Cinema\obj\Debug\Serveur_Cinema.csproj.CopyComplete
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Serveur_Cinema\obj\Debug\Serveur_Cinema.dll
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Serveur_Cinema\obj\Debug\Serveur_Cinema.pdb

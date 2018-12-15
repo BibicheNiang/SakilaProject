@@ -22,6 +22,8 @@ namespace Serveur_Cinema
         Address Addadresse(Address ad);
         [OperationContract]
         List<Store> Listestore();
+        [OperationContract]
+        Film Addfilm(Film fl);
 
     }
 }

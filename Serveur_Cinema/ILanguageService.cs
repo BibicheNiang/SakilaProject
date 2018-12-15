@@ -12,6 +12,9 @@ namespace Serveur_Cinema
     [ServiceContract]
     public interface ILanguageService
     {
+<<<<<<< HEAD
+        
+=======
         [OperationContract]
         Language Addlangage(Language Langue);
         [OperationContract]
@@ -25,5 +28,6 @@ namespace Serveur_Cinema
         [OperationContract]
         Film Addfilm(Film fl);
 
+>>>>>>> a267ae8d5df0abe28946137f73c3a901f3a43310
     }
 }

@@ -11,6 +11,7 @@ namespace Serveur_Cinema
     // REMARQUE : vous pouvez utiliser la commande Renommer du menu Refactoriser pour changer le nom de classe "LanguageService" à la fois dans le code et le fichier de configuration.
     public class LanguageService : ILanguageService
     {
+        
         BDContext bdc = new BDContext();
         public Language Addlangage(Language langue)
         {
@@ -25,7 +26,6 @@ namespace Serveur_Cinema
             {
 
                 throw;
-                return null;
             }
             
         }
@@ -40,7 +40,6 @@ namespace Serveur_Cinema
             catch (Exception)
             {
                 throw;
-                return null;
             }
             
 
@@ -74,7 +73,6 @@ namespace Serveur_Cinema
             catch (Exception)
             {
                 throw;
-                return null;
             }
 
         }
@@ -90,7 +88,6 @@ namespace Serveur_Cinema
             catch (Exception)
             {
                 throw;
-                return null;
 
             }
             

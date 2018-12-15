@@ -1,0 +1,35 @@
+﻿<Window x:Class="Client_Cinema.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client_Cinema"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="MainWindow" Height="450" Width="800"
+        ResizeMode="NoResize" 
+        WindowStartupLocation="CenterScreen" 
+         >
+
+    <Window.Background>
+        <ImageBrush ImageSource="/icones/fond.jpg"/>
+    </Window.Background>
+    <Grid>
+
+        <Rectangle Height="218" VerticalAlignment="Bottom" Margin="343,0,23,36" RadiusY="10" RadiusX="10" Fill="#FFC5C4C4">
+            <Rectangle.Effect>
+                <DropShadowEffect BlurRadius="15" Direction="0" RenderingBias="Quality" ShadowDepth="1" Color="#FFBBBBBB"/>
+            </Rectangle.Effect>
+        </Rectangle>
+        <Grid VerticalAlignment="Bottom" Margin="35,0,35,51" Height="269">
+            <StackPanel VerticalAlignment="Center" Margin="475,77,10,26" Height="137">
+                <TextBox Margin="0,10" materialDesign:HintAssist.Hint="Nom utilisateur" Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontFamily="Champagne &amp; Limousines" FontSize="18"/>
+                <PasswordBox Margin="0,10" materialDesign:HintAssist.Hint="Mot de passe" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}" FontFamily="Champagne &amp; Limousines" FontSize="18"/>
+            </StackPanel>
+            <MediaElement HorizontalAlignment="Left" Height="133" Margin="142,126,0,0" VerticalAlignment="Top" Width="148"/>
+        </Grid>
+        <Button Width="129" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="578,0,87,69" Content="CONNEXION" Background="#FFCDC972"/>
+        <Image Source="icones/home1.png" Height="100" VerticalAlignment="Top" Margin="359,204,323,0"/>
+        <Image Source="icones/cinema.gif" Margin="177,153,470,154"/>
+    </Grid>
+</Window>

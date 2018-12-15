@@ -20,6 +20,7 @@ namespace Serveur_Cinema
                 bdc.SaveChanges();
                 return langue;
             }
+
             catch (Exception)
             {
 
@@ -44,6 +45,7 @@ namespace Serveur_Cinema
             
 
         }
+
 
         public Store Addstore(Store str)
         {

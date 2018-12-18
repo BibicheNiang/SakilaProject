@@ -21,6 +21,7 @@ namespace Serveur_Cinema
                 bdc.SaveChanges();
                 return langue;
             }
+
             catch (Exception)
             {
 
@@ -43,6 +44,23 @@ namespace Serveur_Cinema
             
 
         }
+        public Film Addfilm(Film fl)
+        {
+            try
+            {
+                bdc.Films.Add(fl);
+                bdc.SaveChanges();
+                return fl;
+            }
+            catch (Exception)
+            {
+                throw;
+                return null;
+            }
+
+
+        }
+
 
         public Store Addstore(Store str)
         {
@@ -87,6 +105,7 @@ namespace Serveur_Cinema
 
 
         }
+
 
     }
 }

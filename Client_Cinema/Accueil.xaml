@@ -26,10 +26,13 @@
                 <TextBox Margin="0,10" materialDesign:HintAssist.Hint="Nom utilisateur" Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontFamily="Champagne &amp; Limousines" FontSize="18"/>
                 <PasswordBox Margin="0,10" materialDesign:HintAssist.Hint="Mot de passe" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}" FontFamily="Champagne &amp; Limousines" FontSize="18"/>
             </StackPanel>
-            <MediaElement HorizontalAlignment="Left" Height="133" Margin="142,126,0,0" VerticalAlignment="Top" Width="148"/>
         </Grid>
         <Button Width="129" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="578,0,87,69" Content="CONNEXION" Background="#FFCDC972"/>
         <Image Source="icones/home1.png" Height="100" VerticalAlignment="Top" Margin="359,204,323,0"/>
-        <Image Source="icones/cinema.gif" Margin="177,153,470,154"/>
+        <Label Content="Sakila Cinema" HorizontalAlignment="Left" Margin="154,42,0,0" VerticalAlignment="Top" Width="432" Height="59" FontFamily="Snap ITC" FontSize="48" FontWeight="Bold" FontStyle="Italic" Foreground="#FFD6CE1C">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
     </Grid>
 </Window>

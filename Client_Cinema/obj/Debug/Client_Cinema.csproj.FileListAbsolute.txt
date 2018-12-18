@@ -19,3 +19,11 @@ C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\ob
 C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\obj\Debug\Client_Cinema.exe
 C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\obj\Debug\Client_Cinema.pdb
 C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\obj\Debug\App.baml
+C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\obj\Debug\Gif_UC.g.cs
+C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\obj\Debug\Gif_UC.baml
+C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\obj\Debug\Principal.g.cs
+C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\obj\Debug\Principal.baml
+C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\obj\Debug\userControl\Utilisateur.baml
+C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\obj\Debug\userControl\Client.g.cs
+C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\obj\Debug\userControl\Utilisateur.g.cs
+C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\obj\Debug\userControl\Client.baml

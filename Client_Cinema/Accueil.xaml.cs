@@ -23,6 +23,8 @@ namespace Client_Cinema
         public MainWindow()
         {
             InitializeComponent();
+            //Gif_UC gif = new Gif_UC();
+            //this.AddChild(gif);
         }
     }
 }

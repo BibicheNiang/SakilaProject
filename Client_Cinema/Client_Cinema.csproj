@@ -61,6 +61,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="userControl\Client.xaml.cs">
+      <DependentUpon>Client.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="userControl\Utilisateur.xaml.cs">
+      <DependentUpon>Utilisateur.xaml</DependentUpon>
+    </Compile>
     <Page Include="Accueil.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -73,8 +79,30 @@
       <DependentUpon>Accueil.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Gif_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Principal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="userControl\Client.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="userControl\Utilisateur.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Gif_UC.xaml.cs">
+      <DependentUpon>Gif_UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.xaml.cs">
+      <DependentUpon>Principal.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -112,6 +140,32 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="icones\cinema.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icones\team.png" />
+    <Resource Include="icones\film.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icones\house.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icones\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icones\new-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icones\rechercher.png" />
+    <Resource Include="icones\modify.png" />
+    <Resource Include="icones\plus.png" />
+    <Resource Include="icones\printer.png" />
+    <Resource Include="icones\téléchargé.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icones\man.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icones\appercu.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

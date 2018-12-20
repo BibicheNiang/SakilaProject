@@ -29,5 +29,10 @@ namespace Client_Cinema.userControl
         {
 
         }
+
+        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

@@ -32,23 +32,31 @@ namespace Client_Cinema
             //GridCursor.Margin = new Thickness(10 + (150 * index), 0, 0, 0);
 
             Client client = new Client();
+            Utilisateur user = new Utilisateur();
 
             switch (index)
             {
                 case 0:
+                    GridMain.Children.Clear();
                     GridMain.Background = Brushes.Aquamarine;
                     break;
                 case 1:
-                  
-                    GridMain.Children.Add(client);
+
+                    GridMain.Children.Clear();
+                    GridMain.Children.Add(user);
+
                     break;
                 case 2:
-                    GridMain.Background = Brushes.CadetBlue;
+                    GridMain.Children.Clear();
+                    GridMain.Children.Add(client);
+                    
                     break;
                 case 3:
+                    GridMain.Children.Clear();
                     GridMain.Background = Brushes.DarkBlue;
                     break;
                 case 4:
+                    GridMain.Children.Clear();
                     GridMain.Background = Brushes.Firebrick;
                     break;
                

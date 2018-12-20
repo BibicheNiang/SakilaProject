@@ -57,6 +57,6 @@
             <Label Margin="948,117,240,24" Content="Stores" FontSize="18" FontWeight="Bold" FontFamily="Microsoft JhengHei" HorizontalContentAlignment="Center"/>
 
         </Grid>
-        <Grid x:Name="GridMain" Height="600" Background="Aquamarine" Margin="32,0,-13289966,0"/>
+        <Grid x:Name="GridMain" Height="600"  Margin="10,0"/>
     </StackPanel>
 </Window>

@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Client_Cinema.ServiceReference1;
 
 namespace Client_Cinema.userControl
 {
@@ -23,6 +24,8 @@ namespace Client_Cinema.userControl
         public Client()
         {
             InitializeComponent();
+            //LanguageServiceClient client =new LanguageServiceClient();
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

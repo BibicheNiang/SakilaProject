@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serveur_Cinema", "Serveur_Cinema\Serveur_Cinema.csproj", "{2089C1BB-D5FC-4DB7-BCDE-F8F05D63C676}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client_Cinema", "Client_Cinema\Client_Cinema.csproj", "{B4D80437-DD01-4290-9D95-9ECC4C408385}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2089C1BB-D5FC-4DB7-BCDE-F8F05D63C676} = {2089C1BB-D5FC-4DB7-BCDE-F8F05D63C676}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

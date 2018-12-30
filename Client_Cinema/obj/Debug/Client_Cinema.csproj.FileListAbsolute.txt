@@ -27,3 +27,32 @@ C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\ob
 C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\obj\Debug\userControl\Client.g.cs
 C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\obj\Debug\userControl\Utilisateur.g.cs
 C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\obj\Debug\userControl\Client.baml
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\bin\Debug\Client_Cinema.exe.config
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\bin\Debug\Client_Cinema.exe
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\bin\Debug\Client_Cinema.pdb
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\bin\Debug\MaterialDesignColors.dll
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\obj\Debug\Client_Cinema.csprojAssemblyReference.cache
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\obj\Debug\userControl\Utilisateur.baml
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\obj\Debug\Accueil.g.cs
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\obj\Debug\Gif_UC.g.cs
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\obj\Debug\Principal.g.cs
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\obj\Debug\userControl\Client.g.cs
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\obj\Debug\userControl\Utilisateur.g.cs
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\obj\Debug\App.g.cs
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\obj\Debug\Client_Cinema_MarkupCompile.cache
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\obj\Debug\Client_Cinema_MarkupCompile.lref
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\obj\Debug\App.baml
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\obj\Debug\Accueil.baml
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\obj\Debug\Gif_UC.baml
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\obj\Debug\Principal.baml
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\obj\Debug\userControl\Client.baml
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\obj\Debug\Client_Cinema.g.resources
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\obj\Debug\Client_Cinema.Properties.Resources.resources
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\obj\Debug\Client_Cinema.csproj.GenerateResource.cache
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\obj\Debug\Client_Cinema.csproj.CoreCompileInputs.cache
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\obj\Debug\Client_Cinema.csproj.CopyComplete
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\obj\Debug\Client_Cinema.exe
+C:\Users\PAPY\Documents\GitHub\SakilaProject\Client_Cinema\obj\Debug\Client_Cinema.pdb

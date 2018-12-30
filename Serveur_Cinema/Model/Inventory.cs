@@ -12,6 +12,10 @@ namespace Serveur_Cinema.Model
     {
         [DataMember]
         public int InventoryId { get; set; }
+        [DataMember]
+        public int FilmId { get; set; }
+        [DataMember]
+        public int StoreId { get; set; }
 
         [DataMember]
         public DateTime Last_update { get; set; }

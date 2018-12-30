@@ -23,11 +23,11 @@
         </Rectangle>
         <Grid VerticalAlignment="Bottom" Margin="35,0,35,51" Height="269">
             <StackPanel VerticalAlignment="Center" Margin="475,77,10,26" Height="137">
-                <TextBox Margin="0,10" materialDesign:HintAssist.Hint="Nom utilisateur" Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontFamily="Champagne &amp; Limousines" FontSize="18"/>
-                <PasswordBox Margin="0,10" materialDesign:HintAssist.Hint="Mot de passe" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}" FontFamily="Champagne &amp; Limousines" FontSize="18"/>
+                <TextBox x:Name="usernameTBX" Margin="0,10" materialDesign:HintAssist.Hint="Nom utilisateur" Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontFamily="Champagne &amp; Limousines" FontSize="18"/>
+                <PasswordBox x:Name="motdepasseTBX" Margin="0,10" materialDesign:HintAssist.Hint="Mot de passe" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}" FontFamily="Champagne &amp; Limousines" FontSize="18"/>
             </StackPanel>
         </Grid>
-        <Button Width="129" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="578,0,87,69" Content="CONNEXION" Background="#FFCDC972"/>
+        <Button Width="129" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="578,0,87,69" Content="CONNEXION" Background="#FFCDC972" Click="Button_Click"/>
         <Image Source="icones/home1.png" Height="100" VerticalAlignment="Top" Margin="359,204,323,0"/>
         <Label Content="Sakila Cinema" HorizontalAlignment="Left" Margin="154,42,0,0" VerticalAlignment="Top" Width="432" Height="59" FontFamily="Snap ITC" FontSize="48" FontWeight="Bold" FontStyle="Italic" Foreground="#FFD6CE1C">
             <Label.Effect>

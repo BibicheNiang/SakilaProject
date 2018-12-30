@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Client_Cinema.ServiceReference1;
 
 namespace Client_Cinema
 {
@@ -25,6 +26,30 @@ namespace Client_Cinema
             InitializeComponent();
             //Gif_UC gif = new Gif_UC();
             //this.AddChild(gif);
+        }
+       
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            string username = usernameTBX.Text;
+            string mdp = motdepasseTBX.Password.ToString();
+           
+
+            if(username.Equals("") || mdp.Equals(""))
+            {
+                MessageBox.Show("Veuillez remplir tous les champs");
+            }else if(username.Equals("admin") && mdp.Equals("admin"))
+            {
+                Principal principal = new Principal();
+                principal.Show();
+                this.Close();
+              
+            }
+            else
+            {
+                MessageBox.Show("Vous etes un utilisateur simple");
+
+            }
         }
     }
 }

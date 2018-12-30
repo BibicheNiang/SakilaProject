@@ -31,6 +31,24 @@
   <wsdl:message name="ILanguageService_Addadresse_OutputMessage">
     <wsdl:part name="parameters" element="tns:AddadresseResponse" />
   </wsdl:message>
+  <wsdl:message name="ILanguageService_Addfilm_InputMessage">
+    <wsdl:part name="parameters" element="tns:Addfilm" />
+  </wsdl:message>
+  <wsdl:message name="ILanguageService_Addfilm_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddfilmResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILanguageService_AddStaff_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddStaff" />
+  </wsdl:message>
+  <wsdl:message name="ILanguageService_AddStaff_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddStaffResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILanguageService_AddCustomer_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddCustomer" />
+  </wsdl:message>
+  <wsdl:message name="ILanguageService_AddCustomer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddCustomerResponse" />
+  </wsdl:message>
   <wsdl:message name="ILanguageService_Listestore_InputMessage">
     <wsdl:part name="parameters" element="tns:Listestore" />
   </wsdl:message>
@@ -53,6 +71,18 @@
     <wsdl:operation name="Addadresse">
       <wsdl:input wsaw:Action="http://tempuri.org/ILanguageService/Addadresse" message="tns:ILanguageService_Addadresse_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/ILanguageService/AddadresseResponse" message="tns:ILanguageService_Addadresse_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Addfilm">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILanguageService/Addfilm" message="tns:ILanguageService_Addfilm_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILanguageService/AddfilmResponse" message="tns:ILanguageService_Addfilm_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddStaff">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILanguageService/AddStaff" message="tns:ILanguageService_AddStaff_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILanguageService/AddStaffResponse" message="tns:ILanguageService_AddStaff_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddCustomer">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILanguageService/AddCustomer" message="tns:ILanguageService_AddCustomer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILanguageService/AddCustomerResponse" message="tns:ILanguageService_AddCustomer_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="Listestore">
       <wsdl:input wsaw:Action="http://tempuri.org/ILanguageService/Listestore" message="tns:ILanguageService_Listestore_InputMessage" />
@@ -90,6 +120,33 @@
     </wsdl:operation>
     <wsdl:operation name="Addadresse">
       <soap:operation soapAction="http://tempuri.org/ILanguageService/Addadresse" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Addfilm">
+      <soap:operation soapAction="http://tempuri.org/ILanguageService/Addfilm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddStaff">
+      <soap:operation soapAction="http://tempuri.org/ILanguageService/AddStaff" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddCustomer">
+      <soap:operation soapAction="http://tempuri.org/ILanguageService/AddCustomer" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

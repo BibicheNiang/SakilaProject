@@ -103,26 +103,26 @@
 
         </Grid>
         <Grid Margin="788,0,10,10">
-            <DataGrid HorizontalAlignment="Left" Height="135" Margin="22,230,0,0" VerticalAlignment="Top" Width="438" >
+            <DataGrid x:Name="acteurDG" HorizontalAlignment="Left" Height="135" Margin="22,230,0,0" VerticalAlignment="Top" Width="438" Visibility="Hidden" >
                 <DataGrid.Columns>
                     <DataGridTextColumn x:Name="Id" Header="ID"  Binding="{Binding ID}"/>
                     <DataGridTextColumn x:Name="Nom" Header="Nom"  Binding="{Binding Nom}"/>
                     <DataGridTextColumn x:Name="Prenom" Header="Prenom" Binding="{Binding Prenom}"/>
                 </DataGrid.Columns>
             </DataGrid>
-            <Label Content="Nom" HorizontalAlignment="Left" Margin="22,77,0,0" VerticalAlignment="Top" Width="107" Height="38" FontSize="18"/>
-            <Button Content="Ajouter acteur" HorizontalAlignment="Left" Margin="49,19,0,0" VerticalAlignment="Top" Width="151" FontSize="18"/>
-            <TextBox HorizontalAlignment="Left" Height="38" Margin="154,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" FontSize="18"/>
-            <Label Content="Prenom" HorizontalAlignment="Left" Margin="22,139,0,0" VerticalAlignment="Top" Width="107" Height="34" FontSize="18"/>
-            <TextBox HorizontalAlignment="Left" Height="34" Margin="154,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" FontSize="18"/>
-            <Button Content="Rechercher" HorizontalAlignment="Left" Margin="342,115,0,0" VerticalAlignment="Top" Width="118" Height="37"/>
+            <Label x:Name="nomLB" Content="Nom" HorizontalAlignment="Left" Margin="22,77,0,0" VerticalAlignment="Top" Width="107" Height="38" FontSize="18" Visibility="Hidden" />
+            <Button Content="Ajouter acteur" HorizontalAlignment="Left" Margin="49,19,0,0" VerticalAlignment="Top" Width="151" FontSize="18" Click="Button_Click"/>
+            <TextBox x:Name="nomTBX" HorizontalAlignment="Left" Height="38" Margin="154,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" FontSize="18" Visibility="Hidden"/>
+            <Label x:Name="prenomLB" Content="Prenom" HorizontalAlignment="Left" Margin="22,139,0,0" VerticalAlignment="Top" Width="107" Height="34" FontSize="18" Visibility="Hidden"/>
+            <TextBox x:Name="prenomTBX" HorizontalAlignment="Left" Height="34" Margin="154,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" FontSize="18" Visibility="Hidden"/>
+            <Button x:Name="rechercheracteur" Content="Rechercher" HorizontalAlignment="Left" Margin="342,115,0,0" VerticalAlignment="Top" Width="118" Height="37" Visibility="Hidden"/>
 
 
-            <Label Content="Libelle" HorizontalAlignment="Left" Margin="22,477,0,0" VerticalAlignment="Top" Width="107" Height="38" FontSize="18" RenderTransformOrigin="0.477,-0.002"/>
-            <Button Content="Ajouter Categorie" HorizontalAlignment="Left" Margin="321,19,0,0" VerticalAlignment="Top" Width="184" FontSize="18"/>
-            <TextBox HorizontalAlignment="Left" Height="38" Margin="154,477,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" FontSize="18"/>
-            <Button Content="Rechercher" HorizontalAlignment="Left" Margin="110,539,0,0" VerticalAlignment="Top" Width="118" Height="37"/>
-            <DataGrid HorizontalAlignment="Left" Height="135" Margin="342,441,0,0" VerticalAlignment="Top" Width="196" >
+            <Label x:Name="libelleLB" Content="Libelle" HorizontalAlignment="Left" Margin="22,477,0,0" VerticalAlignment="Top" Width="107" Height="38" FontSize="18" RenderTransformOrigin="0.477,-0.002" Visibility="Hidden"/>
+            <Button Content="Ajouter Categorie" HorizontalAlignment="Left" Margin="321,19,0,0" VerticalAlignment="Top" Width="184" FontSize="18" Click="Button_Click_1"/>
+            <TextBox x:Name="libelleTBX" HorizontalAlignment="Left" Height="38" Margin="154,477,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" FontSize="18" Visibility="Hidden"/>
+            <Button x:Name="rechercherCategorie" Content="Rechercher" HorizontalAlignment="Left" Margin="110,539,0,0" VerticalAlignment="Top" Width="118" Height="37" Visibility="Hidden"/>
+            <DataGrid x:Name="categorieDG" HorizontalAlignment="Left" Height="135" Margin="342,441,0,0" VerticalAlignment="Top" Width="196" Visibility="Hidden">
                 <DataGrid.Columns>
                     <DataGridTextColumn x:Name="Libelle" Header="Libelle"  Binding="{Binding Libelle}"/>
                 </DataGrid.Columns>

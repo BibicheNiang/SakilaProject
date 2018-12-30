@@ -25,6 +25,22 @@ namespace Client_Cinema.userControl
             InitializeComponent();
         }
 
-       
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            nomLB.Visibility = Visibility.Visible;
+            nomTBX.Visibility = Visibility.Visible;
+            prenomLB.Visibility = Visibility.Visible;
+            prenomTBX.Visibility = Visibility.Visible;
+            rechercheracteur.Visibility = Visibility.Visible;
+            acteurDG.Visibility = Visibility.Visible;
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            libelleLB.Visibility = Visibility.Visible;
+            libelleTBX.Visibility = Visibility.Visible;
+            rechercherCategorie.Visibility = Visibility.Visible;
+            categorieDG.Visibility = Visibility.Visible;
+        }
     }
 }

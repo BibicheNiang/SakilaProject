@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Client_Cinema"
         mc:Ignorable="d"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-        Title="Principal" Height="900.223" Width="1847.27">
+        Title="Sakila Cinema" Height="900.223" Width="1847.27" ResizeMode="NoResize">
     <Window.Background>
         <ImageBrush ImageSource="/icones/fond7.png" Opacity="0.9"/>
     </Window.Background>
@@ -61,7 +61,7 @@
             </StackPanel>
             <Label Margin="996,112,404,29" Content="Stores" Foreground="#DDF7F706" FontSize="18" FontWeight="Bold" FontFamily="Microsoft JhengHei"/>
             <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="1125,0,222,0" Height="122" RenderTransformOrigin="0.5,0.5">
-                <Button Uid="6" Width="140" Height="Auto" Background="{x:Null}" BorderBrush="#FF2B2929" Foreground="#FF2196F3" Click="Button_Click" Margin="0,10">
+                <Button Uid="7" Width="140" Height="Auto" Background="{x:Null}" BorderBrush="#FF2B2929" Foreground="#FF2196F3" Click="Button_Click" Margin="0,10">
                     <Image Source="icones/change.png" Height="97" Width="116"/>
                 </Button>
             </StackPanel>

@@ -29,6 +29,7 @@ namespace Serveur_Cinema
             }
             
         }
+
         public Actor Addactor(Actor Act)
         {
             try
@@ -55,7 +56,7 @@ namespace Serveur_Cinema
             catch (Exception)
             {
                 throw;
-                return null;
+                
             }
 
 
@@ -92,6 +93,38 @@ namespace Serveur_Cinema
             }
             
         }
+
+        public Staff AddStaff(Staff staf)
+        {
+            try
+            {
+                bdc.Staffs.Add(staf);
+                bdc.SaveChanges();
+                return staf;
+
+            }
+            catch (Exception)
+            {
+                throw;
+
+            }
+        }
+
+        public Customer AddCustomer(Customer customer)
+        {
+            try
+            {
+                bdc.Customers.Add(customer);
+                bdc.SaveChanges();
+                return customer;
+
+            }
+            catch (Exception)
+            {
+                throw;
+
+            }
+        }
         public List<Store> Listestore()
         {
             try
@@ -106,6 +139,6 @@ namespace Serveur_Cinema
 
         }
 
-
+       
     }
 }

@@ -4,57 +4,81 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              mc:Ignorable="d" 
-             d:DesignHeight="600" d:DesignWidth="1351.22">
-    <Grid Background="#FFD4D4D4">
-        <Grid Margin="22,15,1025,10">
+             d:DesignHeight="600"  Margin="37,0,67,0">
+    <Grid Background="#FFD4D4D4" VerticalAlignment="Center" >
+        <Grid Margin="22,15,1100,10">
             <Grid.Background>
                 <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="0.988"/>
                     <GradientStop Color="#FF017FFD" Offset="0.558"/>
                 </LinearGradientBrush>
             </Grid.Background>
-            <Button Height="Auto" Margin="0,54,138,467" Click="Button_Click">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="543*"/>
+                <ColumnDefinition Width="4*"/>
+            </Grid.ColumnDefinitions>
+            <Button Height="Auto" Margin="0,64,138,467" Click="Button_Click">
                 <Button.Template>
                     <ControlTemplate>
                         <Image Source="/icones/plus.png"/>
                     </ControlTemplate>
                 </Button.Template>
             </Button>
-            <Label Content="Ajouter" HorizontalAlignment="Left" Margin="118,64,0,0" VerticalAlignment="Top" Width="123" FontFamily="Segoe UI Semibold" FontSize="18"/>
-            <Button Height="Auto" Margin="10,126,138,390">
+            <Label Content="Ajouter" HorizontalAlignment="Left" Margin="101,74,0,0" VerticalAlignment="Top" Width="123" FontFamily="Segoe UI Semibold" FontSize="18" Grid.ColumnSpan="2"/>
+            <Button Height="Auto" Margin="10,126,138,405">
                 <Button.Template>
                     <ControlTemplate>
                         <Image Source="/icones/modify.png"/>
                     </ControlTemplate>
                 </Button.Template>
             </Button>
-            <Label Content="Modifier" HorizontalAlignment="Left" Margin="118,136,0,0" VerticalAlignment="Top" Width="123" FontFamily="Segoe UI Semibold" FontSize="18"/>
-            <Button Height="Auto" Margin="0,190,138,331" RenderTransformOrigin="0.575,0.505">
+            <Label Content="Modifier" HorizontalAlignment="Left" Margin="101,126,0,0" VerticalAlignment="Top" Width="123" FontFamily="Segoe UI Semibold" FontSize="18" Grid.ColumnSpan="2"/>
+            <Button Height="Auto" Margin="0,190,138,342" RenderTransformOrigin="0.575,0.505">
                 <Button.Template>
                     <ControlTemplate>
                         <Image Source="/icones/rechercher.png"/>
                     </ControlTemplate>
                 </Button.Template>
             </Button>
-            <Label Content="Rechercher" HorizontalAlignment="Left" Margin="118,199,0,0" VerticalAlignment="Top" Width="123" FontFamily="Segoe UI Semibold" FontSize="18"/>
-            <Button Height="Auto" Margin="-11,338,127,181" RenderTransformOrigin="0.594,0.486">
+            <Label Content="Rechercher" HorizontalAlignment="Left" Margin="101,190,0,0" VerticalAlignment="Top" Width="123" FontFamily="Segoe UI Semibold" FontSize="18" Grid.ColumnSpan="2"/>
+            <Button Height="Auto" Margin="-13,414,129,116" RenderTransformOrigin="0.594,0.486">
                 <Button.Template>
                     <ControlTemplate>
                         <Image Source="/icones/appercu.png"/>
                     </ControlTemplate>
                 </Button.Template>
             </Button>
-            <Label Content="Aperçu liste" HorizontalAlignment="Left" Margin="118,350,0,0" VerticalAlignment="Top" Width="123" FontFamily="Segoe UI Semibold" FontSize="18"/>
-            <Button Height="Auto" Margin="-11,402,127,117">
+            <Label Content="Aperçu liste" HorizontalAlignment="Left" Margin="101,425,0,0" VerticalAlignment="Top" Width="123" FontFamily="Segoe UI Semibold" FontSize="18" Grid.ColumnSpan="2"/>
+            <Button Height="Auto" Margin="-13,464,129,67">
                 <Button.Template>
                     <ControlTemplate>
                         <Image Source="/icones/printer.png"/>
                     </ControlTemplate>
                 </Button.Template>
             </Button>
-            <Label Content="Imprimer liste" HorizontalAlignment="Left" Margin="118,412,0,0" VerticalAlignment="Top" Width="144" FontFamily="Segoe UI Semibold" FontSize="18"/>
+            <Label Content="Imprimer liste" HorizontalAlignment="Left" Margin="101,464,-16,0" VerticalAlignment="Top" Width="139" FontFamily="Segoe UI Semibold" FontSize="18" Grid.ColumnSpan="2"/>
+
+            <Button Height="Auto" Margin="-13,263,129,268">
+                <Button.Template>
+                    <ControlTemplate>
+                        <Image Source="/icones/checkedusermale.png"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Label Content="Debloquer" HorizontalAlignment="Left" Margin="101,273,-21,0" VerticalAlignment="Top" Width="144" FontFamily="Segoe UI Semibold" FontSize="18" Grid.ColumnSpan="2"/>
+
+            <Button Height="Auto" Margin="-13,322,129,209">
+                <Button.Template>
+                    <ControlTemplate>
+                        <Image Source="/icones/idnotverified.png"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Label Content="Bloquer" HorizontalAlignment="Left" Margin="101,332,-21,0" VerticalAlignment="Top" Width="144" FontFamily="Segoe UI Semibold" FontSize="18" Grid.ColumnSpan="2"/>
+
+
         </Grid>
-        <Grid Margin="515,115,0,71">
+        <Grid Margin="486,131,144,68" HorizontalAlignment="Center" VerticalAlignment="Center" Height="401">
             <Grid.Background>
                 <ImageBrush/>
             </Grid.Background>
@@ -78,8 +102,8 @@
             <TextBox HorizontalAlignment="Left" Height="36" Margin="174,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="224" FontFamily="Segoe UI Semibold" FontSize="18"/>
 
         </Grid>
-        <Label Content="Gestion des utilisateurs" HorizontalAlignment="Left" Margin="730,66,0,0" VerticalAlignment="Top" Width="408" Height="44" FontFamily="Sitka Small" FontSize="30"/>
-        <Image Source="/icones/new-user.png" HorizontalAlignment="Left" Height="100" Margin="601,15,0,0" VerticalAlignment="Top" Width="106"/>
+        <Label Content="Gestion des utilisateurs" HorizontalAlignment="Left" Margin="622,66,0,0" VerticalAlignment="Top" Width="408" Height="44" FontFamily="Sitka Small" FontSize="30"/>
+        <Image Source="/icones/new-user.png" HorizontalAlignment="Left" Height="100" Margin="511,10,0,0" VerticalAlignment="Top" Width="106"/>
 
     </Grid>
 </UserControl>

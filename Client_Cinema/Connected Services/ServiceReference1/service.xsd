@@ -57,6 +57,48 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="Addfilm">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/Serveur_Cinema.Model" minOccurs="0" name="fl" nillable="true" type="q9:Film" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddfilmResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/Serveur_Cinema.Model" minOccurs="0" name="AddfilmResult" nillable="true" type="q10:Film" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddStaff">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/Serveur_Cinema.Model" minOccurs="0" name="staf" nillable="true" type="q11:Staff" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddStaffResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/Serveur_Cinema.Model" minOccurs="0" name="AddStaffResult" nillable="true" type="q12:Staff" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddCustomer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/Serveur_Cinema.Model" minOccurs="0" name="customer" nillable="true" type="q13:Customer" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddCustomerResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/Serveur_Cinema.Model" minOccurs="0" name="AddCustomerResult" nillable="true" type="q14:Customer" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
   <xs:element name="Listestore">
     <xs:complexType>
       <xs:sequence />
@@ -65,7 +107,7 @@
   <xs:element name="ListestoreResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/Serveur_Cinema.Model" minOccurs="0" name="ListestoreResult" nillable="true" type="q9:ArrayOfStore" />
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/Serveur_Cinema.Model" minOccurs="0" name="ListestoreResult" nillable="true" type="q15:ArrayOfStore" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

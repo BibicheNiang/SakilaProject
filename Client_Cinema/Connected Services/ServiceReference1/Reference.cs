@@ -1669,6 +1669,24 @@ namespace Client_Cinema.ServiceReference1 {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ILanguageService/Addadresse", ReplyAction="http://tempuri.org/ILanguageService/AddadresseResponse")]
         System.Threading.Tasks.Task<Client_Cinema.ServiceReference1.Address> AddadresseAsync(Client_Cinema.ServiceReference1.Address ad);
         
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ILanguageService/Addfilm", ReplyAction="http://tempuri.org/ILanguageService/AddfilmResponse")]
+        Client_Cinema.ServiceReference1.Film Addfilm(Client_Cinema.ServiceReference1.Film fl);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ILanguageService/Addfilm", ReplyAction="http://tempuri.org/ILanguageService/AddfilmResponse")]
+        System.Threading.Tasks.Task<Client_Cinema.ServiceReference1.Film> AddfilmAsync(Client_Cinema.ServiceReference1.Film fl);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ILanguageService/AddStaff", ReplyAction="http://tempuri.org/ILanguageService/AddStaffResponse")]
+        Client_Cinema.ServiceReference1.Staff AddStaff(Client_Cinema.ServiceReference1.Staff staf);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ILanguageService/AddStaff", ReplyAction="http://tempuri.org/ILanguageService/AddStaffResponse")]
+        System.Threading.Tasks.Task<Client_Cinema.ServiceReference1.Staff> AddStaffAsync(Client_Cinema.ServiceReference1.Staff staf);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ILanguageService/AddCustomer", ReplyAction="http://tempuri.org/ILanguageService/AddCustomerResponse")]
+        Client_Cinema.ServiceReference1.Customer AddCustomer(Client_Cinema.ServiceReference1.Customer customer);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ILanguageService/AddCustomer", ReplyAction="http://tempuri.org/ILanguageService/AddCustomerResponse")]
+        System.Threading.Tasks.Task<Client_Cinema.ServiceReference1.Customer> AddCustomerAsync(Client_Cinema.ServiceReference1.Customer customer);
+        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ILanguageService/Listestore", ReplyAction="http://tempuri.org/ILanguageService/ListestoreResponse")]
         Client_Cinema.ServiceReference1.Store[] Listestore();
         
@@ -1733,6 +1751,30 @@ namespace Client_Cinema.ServiceReference1 {
         
         public System.Threading.Tasks.Task<Client_Cinema.ServiceReference1.Address> AddadresseAsync(Client_Cinema.ServiceReference1.Address ad) {
             return base.Channel.AddadresseAsync(ad);
+        }
+        
+        public Client_Cinema.ServiceReference1.Film Addfilm(Client_Cinema.ServiceReference1.Film fl) {
+            return base.Channel.Addfilm(fl);
+        }
+        
+        public System.Threading.Tasks.Task<Client_Cinema.ServiceReference1.Film> AddfilmAsync(Client_Cinema.ServiceReference1.Film fl) {
+            return base.Channel.AddfilmAsync(fl);
+        }
+        
+        public Client_Cinema.ServiceReference1.Staff AddStaff(Client_Cinema.ServiceReference1.Staff staf) {
+            return base.Channel.AddStaff(staf);
+        }
+        
+        public System.Threading.Tasks.Task<Client_Cinema.ServiceReference1.Staff> AddStaffAsync(Client_Cinema.ServiceReference1.Staff staf) {
+            return base.Channel.AddStaffAsync(staf);
+        }
+        
+        public Client_Cinema.ServiceReference1.Customer AddCustomer(Client_Cinema.ServiceReference1.Customer customer) {
+            return base.Channel.AddCustomer(customer);
+        }
+        
+        public System.Threading.Tasks.Task<Client_Cinema.ServiceReference1.Customer> AddCustomerAsync(Client_Cinema.ServiceReference1.Customer customer) {
+            return base.Channel.AddCustomerAsync(customer);
         }
         
         public Client_Cinema.ServiceReference1.Store[] Listestore() {

@@ -68,8 +68,20 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="userControl\Acteur.xaml.cs">
+      <DependentUpon>Acteur.xaml</DependentUpon>
+    </Compile>
     <Compile Include="userControl\Client.xaml.cs">
       <DependentUpon>Client.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="userControl\Film.xaml.cs">
+      <DependentUpon>Film.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="userControl\Location.xaml.cs">
+      <DependentUpon>Location.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="userControl\Store.xaml.cs">
+      <DependentUpon>Store.xaml</DependentUpon>
     </Compile>
     <Compile Include="userControl\Utilisateur.xaml.cs">
       <DependentUpon>Utilisateur.xaml</DependentUpon>
@@ -94,7 +106,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="userControl\Acteur.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="userControl\Client.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="userControl\Film.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="userControl\Location.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="userControl\Store.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -133,7 +161,16 @@
     <None Include="Connected Services\ServiceReference1\Client_Cinema.ServiceReference1.Address.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
+    <None Include="Connected Services\ServiceReference1\Client_Cinema.ServiceReference1.Customer1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\Client_Cinema.ServiceReference1.Film1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Connected Services\ServiceReference1\Client_Cinema.ServiceReference1.Language.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\Client_Cinema.ServiceReference1.Staff1.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\ServiceReference1\Client_Cinema.ServiceReference1.Store.datasource">
@@ -190,7 +227,7 @@
     <Resource Include="icones\modify.png" />
     <Resource Include="icones\plus.png" />
     <Resource Include="icones\printer.png" />
-    <Resource Include="icones\téléchargé.jpg" />
+    <Resource Include="icones\client.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="icones\man.png" />
@@ -215,6 +252,38 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icones\checkedusermale.png" />
+    <Resource Include="icones\idnotverified.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icones\change.png" />
+    <Resource Include="icones\store.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icones\fond8.gif" />
+    <Resource Include="icones\fond2.jpg" />
+    <Resource Include="icones\fond3.jpg" />
+    <Resource Include="icones\fond4.jpg" />
+    <Resource Include="icones\fond5.jpg" />
+    <Resource Include="icones\fond6.jpg" />
+    <Resource Include="icones\fond7.png" />
+    <Resource Include="icones\fond1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icones\fond9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icones\payment.png" />
+    <Resource Include="icones\shop.png" />
+    <Resource Include="icones\video.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icones\Client.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icones\documentary.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

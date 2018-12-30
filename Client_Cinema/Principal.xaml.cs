@@ -23,6 +23,9 @@ namespace Client_Cinema
         public Principal()
         {
             InitializeComponent();
+             WindowState = WindowState.Maximized;
+            //WindowStartupLocation = System.Windows.WindowStartupLocation.CenterScreen;
+            //CenterWindowOnScreen();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -33,12 +36,16 @@ namespace Client_Cinema
 
             Client client = new Client();
             Utilisateur user = new Utilisateur();
+            Location location = new Location();
+            Acteur acteur = new Acteur();
+            Film film = new Film();
+            Store store = new Store();
 
             switch (index)
             {
                 case 0:
                     GridMain.Children.Clear();
-                    GridMain.Background = Brushes.Aquamarine;
+                    
                     break;
                 case 1:
 
@@ -53,14 +60,33 @@ namespace Client_Cinema
                     break;
                 case 3:
                     GridMain.Children.Clear();
-                    GridMain.Background = Brushes.DarkBlue;
+                    GridMain.Children.Add(location);
                     break;
                 case 4:
                     GridMain.Children.Clear();
-                    GridMain.Background = Brushes.Firebrick;
+                    GridMain.Children.Add(film);
                     break;
-               
+
+                case 5:
+                    GridMain.Children.Clear();
+                    GridMain.Children.Add(acteur);
+                    break;
+
+                case 6:
+                    GridMain.Children.Clear();
+                    GridMain.Children.Add(store);
+                    break;
+
             }
         }
+        /*private void CenterWindowOnScreen()
+        {
+            double screenWidth = System.Windows.SystemParameters.PrimaryScreenWidth;
+            double screenHeight = System.Windows.SystemParameters.PrimaryScreenHeight;
+            double windowWidth = this.Width;
+            double windowHeight = this.Height;
+            this.Left = (screenWidth / 2) - (windowWidth / 2);
+            this.Top = (screenHeight / 2) - (windowHeight / 2);
+        }*/
     }
 }

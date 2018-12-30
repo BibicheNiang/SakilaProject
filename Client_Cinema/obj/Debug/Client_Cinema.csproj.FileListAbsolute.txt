@@ -27,3 +27,11 @@ C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\ob
 C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\obj\Debug\userControl\Client.g.cs
 C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\obj\Debug\userControl\Utilisateur.g.cs
 C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\obj\Debug\userControl\Client.baml
+C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\obj\Debug\userControl\Acteur.g.cs
+C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\obj\Debug\userControl\Location.g.cs
+C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\obj\Debug\userControl\Acteur.baml
+C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\obj\Debug\userControl\Location.baml
+C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\obj\Debug\userControl\Film.g.cs
+C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\obj\Debug\userControl\Film.baml
+C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\obj\Debug\userControl\Store.g.cs
+C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\obj\Debug\userControl\Store.baml

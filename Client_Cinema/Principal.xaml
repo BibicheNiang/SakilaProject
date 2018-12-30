@@ -6,8 +6,11 @@
         xmlns:local="clr-namespace:Client_Cinema"
         mc:Ignorable="d"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-        Title="Principal" Height="838.348" Width="1351.22">
-    <StackPanel Background="WhiteSmoke">
+        Title="Principal" Height="900.223" Width="1847.27">
+    <Window.Background>
+        <ImageBrush ImageSource="/icones/fond7.png" Opacity="0.9"/>
+    </Window.Background>
+    <StackPanel Margin="0,0,0,3">
         <Grid Height="40">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="20 0">
                 <Button Content="Mon compte" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFA2A2A2" FontSize="15" FontWeight="Bold" VerticalAlignment="Center" Margin="0,4" Width="140"/>
@@ -17,46 +20,54 @@
             </StackPanel>
         </Grid>
         <Grid Height="174">
-            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10,7,1177,0" Height="112">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="34,10,1251,0" Height="112">
                 <Button Uid="0" Width="140" Height="100" Background="{x:Null}" BorderBrush="#FF2B2929" Foreground="#FF2196F3" Click="Button_Click" VerticalAlignment="Top">
                     <Image Source="/icones/house.png" Height="81" Width="120"/>
                 </Button>
             </StackPanel>
-            <Label Margin="21,117,1208,24" Content="Accueil" FontSize="18" FontWeight="Bold" FontFamily="Microsoft JhengHei" HorizontalContentAlignment="Center"/>
-            <StackPanel Orientation="Vertical" Margin="171,10,1035,62">
-                <Button Uid="1"  Height="100" Background="{x:Null}" BorderBrush="#FF2B2929" Foreground="#FF2196F3" Click="Button_Click" Margin="10,0,0,38">
-                    <Image Source="/icones/user.png" Height="90" Width="115"/>
+            <Label Margin="66,112,1362,29" Content="Accueil"  FontSize="18" FontWeight="Bold" FontFamily="Microsoft JhengHei" Foreground="#DDF7F706" />
+            <StackPanel Orientation="Horizontal" Margin="180,10,1251,24">
+                <Button Uid="1"  Height="100" Background="{x:Null}" BorderBrush="#FF2B2929" Foreground="#FF2196F3" Click="Button_Click" Margin="10,0,390,38">
+                    <Image Source="/icones/user.png" Height="81" Width="120"/>
                 </Button>
             </StackPanel>
-            <Label Margin="140,117,998,24" Content="Utilisateurs" FontSize="18" FontWeight="Bold" FontFamily="Microsoft JhengHei" HorizontalContentAlignment="Center"/>
-            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="330,0,849,0" Height="112">
-                <Button Uid="2" Width="140" Height="Auto" Background="{x:Null}" BorderBrush="#FF2B2929" Foreground="#FF2196F3" Click="Button_Click" Margin="0,10,0,0"/>
+            <Label Margin="203,112,1294,29" Content="Utilisateurs" Foreground="#DDF7F706" FontSize="18" FontWeight="Bold" FontFamily="Microsoft JhengHei" />
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="354,0,849,0" Height="112">
+                <Button Uid="2" Width="140" Height="Auto" Background="{x:Null}" BorderBrush="#FF2B2929" Foreground="#FF2196F3" Click="Button_Click" Margin="0,10,0,0">
+                    <Image Source="/icones/Client.png" Height="81" Width="110"/>
+                </Button>
             </StackPanel>
-            <Label Margin="308,117,876,24" Content="Clients" FontSize="18" FontWeight="Bold" FontFamily="Microsoft JhengHei" HorizontalContentAlignment="Center"/>
-            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="485,10,702,0" Height="112">
+            <Label Margin="384,112,872,29" Content="Clients" Foreground="#DDF7F706" FontSize="18" FontWeight="Bold" FontFamily="Microsoft JhengHei" />
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="513,10,702,0" Height="112">
                 <Button Uid="3" Width="142"  Height="Auto" Background="{x:Null}" BorderBrush="#FF2B2929" Foreground="#FF2196F3" Click="Button_Click" Margin="0,0,0,10"/>
             </StackPanel>
-            <Label Margin="467,117,685,24" Content="Locations" FontSize="18" FontWeight="Bold" FontFamily="Microsoft JhengHei" HorizontalContentAlignment="Center"/>
-            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="646,10,522,0" Height="112">
+            <Label Margin="536,112,685,29" Content="Locations" Foreground="#DDF7F706" FontSize="18" FontWeight="Bold" FontFamily="Microsoft JhengHei" />
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="670,10,522,0" Height="112">
                 <Button Uid="4" Width="141" Height="Auto" Background="{x:Null}" BorderBrush="#FF2B2929" Foreground="#FF2196F3" Click="Button_Click" Margin="0,0,0,10">
+                    <Image Source="/icones/documentary.png" Height="97" Width="129"/>
+                </Button>
+            </StackPanel>
+            <Label Margin="706,112,537,29" Content="Films" Foreground="#DDF7F706" FontSize="18" FontWeight="Bold" FontFamily="Microsoft JhengHei"/>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="822,10,381,0" Height="109">
+                <Button Uid="5" Width="141" Height="Auto" Background="{x:Null}" BorderBrush="#FF2B2929" Foreground="#FF2196F3" Click="Button_Click" Margin="0,0,0,10">
                     <Image Source="/icones/film.png" Height="97" Width="129"/>
                 </Button>
             </StackPanel>
-            <Label Margin="631,117,557,24" Content="Films" FontSize="18" FontWeight="Bold" FontFamily="Microsoft JhengHei" HorizontalContentAlignment="Center"/>
-            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="806,10,381,0" Height="109">
-                <Button Uid="4" Width="141" Height="Auto" Background="{x:Null}" BorderBrush="#FF2B2929" Foreground="#FF2196F3" Click="Button_Click" Margin="0,0,0,10">
-                    <Image Source="/icones/film.png" Height="97" Width="129"/>
+            <Label Margin="837,112,351,29" Content="Acteurs" Foreground="#DDF7F706" FontSize="18" FontWeight="Bold" FontFamily="Microsoft JhengHei" />
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="972,0,222,0" Height="122" RenderTransformOrigin="0.5,0.5">
+                <Button Uid="6" Width="140" Height="Auto" Background="{x:Null}" BorderBrush="#FF2B2929" Foreground="#FF2196F3" Click="Button_Click" Margin="0,10">
+                    <Image Source="/icones/store.png" Height="97" Width="129"/>
                 </Button>
             </StackPanel>
-            <Label Margin="796,117,392,24" Content="Acteurs" FontSize="18" FontWeight="Bold" FontFamily="Microsoft JhengHei" HorizontalContentAlignment="Center"/>
-            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="967,0,222,0" Height="122" RenderTransformOrigin="0.5,0.5">
-                <Button Uid="4" Width="140" Height="Auto" Background="{x:Null}" BorderBrush="#FF2B2929" Foreground="#FF2196F3" Click="Button_Click" Margin="0,10">
-                    <Image Source="/icones/film.png" Height="97" Width="129"/>
+            <Label Margin="996,112,404,29" Content="Stores" Foreground="#DDF7F706" FontSize="18" FontWeight="Bold" FontFamily="Microsoft JhengHei"/>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="1125,0,222,0" Height="122" RenderTransformOrigin="0.5,0.5">
+                <Button Uid="6" Width="140" Height="Auto" Background="{x:Null}" BorderBrush="#FF2B2929" Foreground="#FF2196F3" Click="Button_Click" Margin="0,10">
+                    <Image Source="icones/change.png" Height="97" Width="116"/>
                 </Button>
             </StackPanel>
-            <Label Margin="948,117,240,24" Content="Stores" FontSize="18" FontWeight="Bold" FontFamily="Microsoft JhengHei" HorizontalContentAlignment="Center"/>
+            <Label Margin="1142,112,258,29" Content="Payement" Foreground="#DDF7F706" FontSize="18" FontWeight="Bold" FontFamily="Microsoft JhengHei"/>
 
         </Grid>
-        <Grid x:Name="GridMain" Height="600"  Margin="10,0"/>
+        <Grid x:Name="GridMain" Height="600" Margin="37,0,67,0" VerticalAlignment="Center"  />
     </StackPanel>
 </Window>

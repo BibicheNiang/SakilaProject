@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\FatimaBinetou Saer\Documents\cours\dotnet\SakilaProjet\Client_Cinema\App.xaml
-5126387126
+9-387864701
 
-14-682749640
+14-1124038875
 17722135008
-Accueil.xaml;Gif_UC.xaml;Principal.xaml;userControl\Client.xaml;userControl\Utilisateur.xaml;
+Accueil.xaml;Gif_UC.xaml;Principal.xaml;userControl\Acteur.xaml;userControl\Client.xaml;userControl\Film.xaml;userControl\Location.xaml;userControl\Store.xaml;userControl\Utilisateur.xaml;
 
-True
+False
 

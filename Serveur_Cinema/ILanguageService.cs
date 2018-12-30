@@ -24,6 +24,21 @@ namespace Serveur_Cinema
         List<Store> Listestore();
         [OperationContract]
         Film Addfilm(Film fl);
+        [OperationContract]
+        List<Film> Filmparstore(int id);
+        [OperationContract]
+        Payement Addpayement(Payement paye);
+        [OperationContract]
+        void Modifyfilm(Film F);
+        [OperationContract]
+        void Modifyaddress(Address a);
+        [OperationContract]
+        Category Addcategorie(Category cat);
+        [OperationContract]
+        void Modifycategorie(Category c);
+        List<Payement> Listepayement();
+        [OperationContract]
+        Staff Addstaff(Staff s);
 
     }
 }

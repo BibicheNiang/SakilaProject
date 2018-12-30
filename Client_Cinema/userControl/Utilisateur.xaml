@@ -58,23 +58,23 @@
             </Button>
             <Label Content="Imprimer liste" HorizontalAlignment="Left" Margin="101,464,-16,0" VerticalAlignment="Top" Width="139" FontFamily="Segoe UI Semibold" FontSize="18" Grid.ColumnSpan="2"/>
 
-            <Button Height="Auto" Margin="-13,263,129,268">
+            <Button Height="Auto" Margin="-13,239,129,292">
                 <Button.Template>
                     <ControlTemplate>
                         <Image Source="/icones/checkedusermale.png"/>
                     </ControlTemplate>
                 </Button.Template>
             </Button>
-            <Label Content="Debloquer" HorizontalAlignment="Left" Margin="101,273,-21,0" VerticalAlignment="Top" Width="144" FontFamily="Segoe UI Semibold" FontSize="18" Grid.ColumnSpan="2"/>
+            <Label Content="Debloquer" HorizontalAlignment="Left" Margin="101,249,-21,0" VerticalAlignment="Top" Width="144" FontFamily="Segoe UI Semibold" FontSize="18" Grid.ColumnSpan="2"/>
 
-            <Button Height="Auto" Margin="-13,322,129,209">
+            <Button Height="Auto" Margin="-13,288,129,243">
                 <Button.Template>
                     <ControlTemplate>
                         <Image Source="/icones/idnotverified.png"/>
                     </ControlTemplate>
                 </Button.Template>
             </Button>
-            <Label Content="Bloquer" HorizontalAlignment="Left" Margin="101,332,-21,0" VerticalAlignment="Top" Width="144" FontFamily="Segoe UI Semibold" FontSize="18" Grid.ColumnSpan="2"/>
+            <Label Content="Bloquer" HorizontalAlignment="Left" Margin="101,298,-21,0" VerticalAlignment="Top" Width="144" FontFamily="Segoe UI Semibold" FontSize="18" Grid.ColumnSpan="2"/>
 
 
         </Grid>

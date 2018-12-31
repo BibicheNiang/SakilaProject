@@ -23,7 +23,7 @@ namespace Client_Cinema
         public Principal()
         {
             InitializeComponent();
-             WindowState = WindowState.Maximized;
+           //  WindowState = WindowState.Maximized;
             //WindowStartupLocation = System.Windows.WindowStartupLocation.CenterScreen;
             //CenterWindowOnScreen();
         }
